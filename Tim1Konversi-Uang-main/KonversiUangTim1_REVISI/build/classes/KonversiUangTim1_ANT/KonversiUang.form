@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,49,0,0,4,-53"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder thickness="20">
+              <Color PropertyName="color" blue="ff" green="99" red="99" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="650" width="1170" height="150"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="tmblKeluar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Keluar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tmblKeluarActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="800" y="40" width="330" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="tmblKonversi">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Konversi"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tmblKonversiActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="40" width="330" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="tmblReset">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Reset"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tmblResetActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="40" width="330" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder thickness="20">
+              <Color PropertyName="color" blue="ff" green="99" red="99" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="20" width="1170" height="150"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI Symbol" size="68" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Konversi Mata Uang"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="280" y="20" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder thickness="20">
+              <Color PropertyName="color" blue="ff" green="99" red="99" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="180" width="1170" height="300"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="30" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Dari Mata Uang"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="120" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="30" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Menjadi Mata Uang"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="190" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="30" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Jumlah Uang"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="50" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextJumlahUang">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="25" style="1"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="40" width="710" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBoxMenjadiUang">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="25" style="1"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="161">
+                <StringItem index="0" value="AED    -    United Arab Emirates"/>
+                <StringItem index="1" value="AFN    -    Afghanistan"/>
+                <StringItem index="2" value="ALL    -    Albania"/>
+                <StringItem index="3" value="AMD    -    Armenia"/>
+                <StringItem index="4" value="ANG    -    Netherlands Antilles"/>
+                <StringItem index="5" value="AOA    -    Angola"/>
+                <StringItem index="6" value="ARS    -    Argentina"/>
+                <StringItem index="7" value="AUD    -    Australia"/>
+                <StringItem index="8" value="AWG    -    Aruba"/>
+                <StringItem index="9" value="AZN    -    Azerbaijan"/>
+                <StringItem index="10" value="BAM    -    Bosnia and Herzegovina"/>
+                <StringItem index="11" value="BBD    -    Barbados"/>
+                <StringItem index="12" value="BDT    -    Bangladesh"/>
+                <StringItem index="13" value="BGN    -    Bulgaria"/>
+                <StringItem index="14" value="BHD    -    Bahrain"/>
+                <StringItem index="15" value="BIF    -    Burundi"/>
+                <StringItem index="16" value="BMD    -    Bermuda"/>
+                <StringItem index="17" value="BND    -    Brunei"/>
+                <StringItem index="18" value="BOB    -    Bolivia"/>
+                <StringItem index="19" value="BRL    -    Brazil"/>
+                <StringItem index="20" value="BSD    -    Bahamas"/>
+                <StringItem index="21" value="BTN    -    Bhutan"/>
+                <StringItem index="22" value="BWP    -    Botswana"/>
+                <StringItem index="23" value="BYN    -    Belarus"/>
+                <StringItem index="24" value="BZD    -    Belize"/>
+                <StringItem index="25" value="CAD    -    Canada"/>
+                <StringItem index="26" value="CDF    -    Democratic Republic of the Congo"/>
+                <StringItem index="27" value="CHF    -    Switzerland"/>
+                <StringItem index="28" value="CLP    -    Chile"/>
+                <StringItem index="29" value="CNY    -    China"/>
+                <StringItem index="30" value="COP    -    Colombia"/>
+                <StringItem index="31" value="CRC    -    Costa Rica"/>
+                <StringItem index="32" value="CUP    -    Cuba"/>
+                <StringItem index="33" value="CVE    -    Cape Verde"/>
+                <StringItem index="34" value="CZK    -    Czech Republic"/>
+                <StringItem index="35" value="DJF    -    Djibouti"/>
+                <StringItem index="36" value="DKK    -    Denmark"/>
+                <StringItem index="37" value="DOP    -    Dominican Republic"/>
+                <StringItem index="38" value="DZD    -    Algeria"/>
+                <StringItem index="39" value="EGP    -    Egypt"/>
+                <StringItem index="40" value="ERN    -    Eritrea"/>
+                <StringItem index="41" value="ETB    -    Ethiopia"/>
+                <StringItem index="42" value="EUR    -    European Union"/>
+                <StringItem index="43" value="FJD    -    Fiji"/>
+                <StringItem index="44" value="FKP    -    Falkland Islands"/>
+                <StringItem index="45" value="FOK    -    Faroe Islands"/>
+                <StringItem index="46" value="GBP    -    United Kingdom"/>
+                <StringItem index="47" value="GEL    -    Georgia"/>
+                <StringItem index="48" value="GGP    -    Guernsey"/>
+                <StringItem index="49" value="GHS    -    Ghana"/>
+                <StringItem index="50" value="GIP    -    Gibraltar"/>
+                <StringItem index="51" value="GMD    -    The Gambia"/>
+                <StringItem index="52" value="GNF    -    Guinea"/>
+                <StringItem index="53" value="GTQ    -    Guatemala"/>
+                <StringItem index="54" value="GYD    -    Guyana"/>
+                <StringItem index="55" value="HKD    -    Hong Kong"/>
+                <StringItem index="56" value="HNL    -    Honduras"/>
+                <StringItem index="57" value="HRK    -    Croatia"/>
+                <StringItem index="58" value="HTG    -    Haiti"/>
+                <StringItem index="59" value="HUF    -    Hungary"/>
+                <StringItem index="60" value="IDR    -    Indonesia"/>
+                <StringItem index="61" value="ILS    -    Israel"/>
+                <StringItem index="62" value="IMP    -    Isle of Man"/>
+                <StringItem index="63" value="INR    -    India"/>
+                <StringItem index="64" value="IQD    -    Iraq"/>
+                <StringItem index="65" value="IRR    -    Iran"/>
+                <StringItem index="66" value="ISK    -    Iceland"/>
+                <StringItem index="67" value="JEP    -    Jersey"/>
+                <StringItem index="68" value="JMD    -    Jamaica"/>
+                <StringItem index="69" value="JOD    -    Jordan"/>
+                <StringItem index="70" value="JPY    -    Japan"/>
+                <StringItem index="71" value="KES    -    Kenya"/>
+                <StringItem index="72" value="KGS    -    Kyrgyzstan"/>
+                <StringItem index="73" value="KHR    -    Cambodia"/>
+                <StringItem index="74" value="KID    -    Kiribati"/>
+                <StringItem index="75" value="KMF    -    Comoros"/>
+                <StringItem index="76" value="KRW    -    South Korea"/>
+                <StringItem index="77" value="KWD    -    Kuwait"/>
+                <StringItem index="78" value="KYD    -    Cayman Islands"/>
+                <StringItem index="79" value="KZT    -    Kazakhstan"/>
+                <StringItem index="80" value="LAK    -    Laos"/>
+                <StringItem index="81" value="LBP    -    Lebanon"/>
+                <StringItem index="82" value="LKR    -    Sri Lanka"/>
+                <StringItem index="83" value="LRD    -    Liberia"/>
+                <StringItem index="84" value="LSL    -    Lesotho"/>
+                <StringItem index="85" value="LYD    -    Libya"/>
+                <StringItem index="86" value="MAD    -    Morocco"/>
+                <StringItem index="87" value="MDL    -    Moldova"/>
+                <StringItem index="88" value="MGA    -    Madagascar"/>
+                <StringItem index="89" value="MKD    -    North Macedonia"/>
+                <StringItem index="90" value="MMK    -    Myanmar"/>
+                <StringItem index="91" value="MNT    -    Mongolia"/>
+                <StringItem index="92" value="MOP    -    Macau"/>
+                <StringItem index="93" value="MRU    -    Mauritania"/>
+                <StringItem index="94" value="MUR    -    Mauritius"/>
+                <StringItem index="95" value="MVR    -    Maldives"/>
+                <StringItem index="96" value="MWK    -    Malawi"/>
+                <StringItem index="97" value="MXN    -    Mexico"/>
+                <StringItem index="98" value="MYR    -    Malaysia"/>
+                <StringItem index="99" value="MZN    -    Mozambique"/>
+                <StringItem index="100" value="NAD    -    Namibia"/>
+                <StringItem index="101" value="NGN    -    Nigeria"/>
+                <StringItem index="102" value="NIO    -    Nicaragua"/>
+                <StringItem index="103" value="NOK    -    Norway"/>
+                <StringItem index="104" value="NPR    -    Nepal"/>
+                <StringItem index="105" value="NZD    -    New Zealand"/>
+                <StringItem index="106" value="OMR    -    Oman"/>
+                <StringItem index="107" value="PAB    -    Panama"/>
+                <StringItem index="108" value="PEN    -    Peru"/>
+                <StringItem index="109" value="PGK    -    Papua New Guinea"/>
+                <StringItem index="110" value="PHP    -    Philippines"/>
+                <StringItem index="111" value="PKR    -    Pakistan"/>
+                <StringItem index="112" value="PLN    -    Poland"/>
+                <StringItem index="113" value="PYG    -    Paraguay"/>
+                <StringItem index="114" value="QAR    -    Qatar"/>
+                <StringItem index="115" value="RON    -    Romania"/>
+                <StringItem index="116" value="RSD    -    Serbia"/>
+                <StringItem index="117" value="RUB    -    Russia"/>
+                <StringItem index="118" value="RWF    -    Rwanda"/>
+                <StringItem index="119" value="SAR    -    Saudi Arabia"/>
+                <StringItem index="120" value="SBD    -    Solomon Islands"/>
+                <StringItem index="121" value="SCR    -    Seychelles"/>
+                <StringItem index="122" value="SDG    -    Sudan"/>
+                <StringItem index="123" value="SEK    -    Sweden"/>
+                <StringItem index="124" value="SGD    -    Singapore"/>
+                <StringItem index="125" value="SHP    -    Saint Helena"/>
+                <StringItem index="126" value="SLE    -    Sierra Leone"/>
+                <StringItem index="127" value="SOS    -    Somalia"/>
+                <StringItem index="128" value="SRD    -    Suriname"/>
+                <StringItem index="129" value="SSP    -    South Sudan"/>
+                <StringItem index="130" value="STN    -    S&#xe3;o Tom&#xe9; and Pr&#xed;ncipe"/>
+                <StringItem index="131" value="SYP    -    Syria"/>
+                <StringItem index="132" value="SZL    -    Eswatini"/>
+                <StringItem index="133" value="THB    -    Thailand"/>
+                <StringItem index="134" value="TJS    -    Tajikistan"/>
+                <StringItem index="135" value="TMT    -    Turkmenistan"/>
+                <StringItem index="136" value="TND    -    Tunisia"/>
+                <StringItem index="137" value="TOP    -    Tonga"/>
+                <StringItem index="138" value="TRY    -    Turkey"/>
+                <StringItem index="139" value="TTD    -    Trinidad and Tobago"/>
+                <StringItem index="140" value="TVD    -    Tuvalu"/>
+                <StringItem index="141" value="TWD    -    Taiwan"/>
+                <StringItem index="142" value="TZS    -    Tanzania"/>
+                <StringItem index="143" value="UAH    -    Ukraine"/>
+                <StringItem index="144" value="UGX    -    Uganda"/>
+                <StringItem index="145" value="USD    -    United States"/>
+                <StringItem index="146" value="UYU    -    Uruguay"/>
+                <StringItem index="147" value="UZS    -    Uzbekistan"/>
+                <StringItem index="148" value="VES    -    Venezuela"/>
+                <StringItem index="149" value="VND    -    Vietnam"/>
+                <StringItem index="150" value="VUV    -    Vanuatu"/>
+                <StringItem index="151" value="WST    -    Samoa"/>
+                <StringItem index="152" value="XAF    -    CEMAC"/>
+                <StringItem index="153" value="XCD    -    Organisation of Eastern Caribbean States"/>
+                <StringItem index="154" value="XDR    -    International Monetary Fund"/>
+                <StringItem index="155" value="XOF    -    CFA"/>
+                <StringItem index="156" value="XPF    -    Collectivit&#xe9;s d&apos;Outre-Mer"/>
+                <StringItem index="157" value="YER    -    Yemen"/>
+                <StringItem index="158" value="ZAR    -    South Africa"/>
+                <StringItem index="159" value="ZMW    -    Zambia"/>
+                <StringItem index="160" value="ZWL    -    Zimbabwe"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="190" width="710" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBoxDariUang">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="25" style="1"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="161">
+                <StringItem index="0" value="AED    -    United Arab Emirates"/>
+                <StringItem index="1" value="AFN    -    Afghanistan"/>
+                <StringItem index="2" value="ALL    -    Albania"/>
+                <StringItem index="3" value="AMD    -    Armenia"/>
+                <StringItem index="4" value="ANG    -    Netherlands Antilles"/>
+                <StringItem index="5" value="AOA    -    Angola"/>
+                <StringItem index="6" value="ARS    -    Argentina"/>
+                <StringItem index="7" value="AUD    -    Australia"/>
+                <StringItem index="8" value="AWG    -    Aruba"/>
+                <StringItem index="9" value="AZN    -    Azerbaijan"/>
+                <StringItem index="10" value="BAM    -    Bosnia and Herzegovina"/>
+                <StringItem index="11" value="BBD    -    Barbados"/>
+                <StringItem index="12" value="BDT    -    Bangladesh"/>
+                <StringItem index="13" value="BGN    -    Bulgaria"/>
+                <StringItem index="14" value="BHD    -    Bahrain"/>
+                <StringItem index="15" value="BIF    -    Burundi"/>
+                <StringItem index="16" value="BMD    -    Bermuda"/>
+                <StringItem index="17" value="BND    -    Brunei"/>
+                <StringItem index="18" value="BOB    -    Bolivia"/>
+                <StringItem index="19" value="BRL    -    Brazil"/>
+                <StringItem index="20" value="BSD    -    Bahamas"/>
+                <StringItem index="21" value="BTN    -    Bhutan"/>
+                <StringItem index="22" value="BWP    -    Botswana"/>
+                <StringItem index="23" value="BYN    -    Belarus"/>
+                <StringItem index="24" value="BZD    -    Belize"/>
+                <StringItem index="25" value="CAD    -    Canada"/>
+                <StringItem index="26" value="CDF    -    Democratic Republic of the Congo"/>
+                <StringItem index="27" value="CHF    -    Switzerland"/>
+                <StringItem index="28" value="CLP    -    Chile"/>
+                <StringItem index="29" value="CNY    -    China"/>
+                <StringItem index="30" value="COP    -    Colombia"/>
+                <StringItem index="31" value="CRC    -    Costa Rica"/>
+                <StringItem index="32" value="CUP    -    Cuba"/>
+                <StringItem index="33" value="CVE    -    Cape Verde"/>
+                <StringItem index="34" value="CZK    -    Czech Republic"/>
+                <StringItem index="35" value="DJF    -    Djibouti"/>
+                <StringItem index="36" value="DKK    -    Denmark"/>
+                <StringItem index="37" value="DOP    -    Dominican Republic"/>
+                <StringItem index="38" value="DZD    -    Algeria"/>
+                <StringItem index="39" value="EGP    -    Egypt"/>
+                <StringItem index="40" value="ERN    -    Eritrea"/>
+                <StringItem index="41" value="ETB    -    Ethiopia"/>
+                <StringItem index="42" value="EUR    -    European Union"/>
+                <StringItem index="43" value="FJD    -    Fiji"/>
+                <StringItem index="44" value="FKP    -    Falkland Islands"/>
+                <StringItem index="45" value="FOK    -    Faroe Islands"/>
+                <StringItem index="46" value="GBP    -    United Kingdom"/>
+                <StringItem index="47" value="GEL    -    Georgia"/>
+                <StringItem index="48" value="GGP    -    Guernsey"/>
+                <StringItem index="49" value="GHS    -    Ghana"/>
+                <StringItem index="50" value="GIP    -    Gibraltar"/>
+                <StringItem index="51" value="GMD    -    The Gambia"/>
+                <StringItem index="52" value="GNF    -    Guinea"/>
+                <StringItem index="53" value="GTQ    -    Guatemala"/>
+                <StringItem index="54" value="GYD    -    Guyana"/>
+                <StringItem index="55" value="HKD    -    Hong Kong"/>
+                <StringItem index="56" value="HNL    -    Honduras"/>
+                <StringItem index="57" value="HRK    -    Croatia"/>
+                <StringItem index="58" value="HTG    -    Haiti"/>
+                <StringItem index="59" value="HUF    -    Hungary"/>
+                <StringItem index="60" value="IDR    -    Indonesia"/>
+                <StringItem index="61" value="ILS    -    Israel"/>
+                <StringItem index="62" value="IMP    -    Isle of Man"/>
+                <StringItem index="63" value="INR    -    India"/>
+                <StringItem index="64" value="IQD    -    Iraq"/>
+                <StringItem index="65" value="IRR    -    Iran"/>
+                <StringItem index="66" value="ISK    -    Iceland"/>
+                <StringItem index="67" value="JEP    -    Jersey"/>
+                <StringItem index="68" value="JMD    -    Jamaica"/>
+                <StringItem index="69" value="JOD    -    Jordan"/>
+                <StringItem index="70" value="JPY    -    Japan"/>
+                <StringItem index="71" value="KES    -    Kenya"/>
+                <StringItem index="72" value="KGS    -    Kyrgyzstan"/>
+                <StringItem index="73" value="KHR    -    Cambodia"/>
+                <StringItem index="74" value="KID    -    Kiribati"/>
+                <StringItem index="75" value="KMF    -    Comoros"/>
+                <StringItem index="76" value="KRW    -    South Korea"/>
+                <StringItem index="77" value="KWD    -    Kuwait"/>
+                <StringItem index="78" value="KYD    -    Cayman Islands"/>
+                <StringItem index="79" value="KZT    -    Kazakhstan"/>
+                <StringItem index="80" value="LAK    -    Laos"/>
+                <StringItem index="81" value="LBP    -    Lebanon"/>
+                <StringItem index="82" value="LKR    -    Sri Lanka"/>
+                <StringItem index="83" value="LRD    -    Liberia"/>
+                <StringItem index="84" value="LSL    -    Lesotho"/>
+                <StringItem index="85" value="LYD    -    Libya"/>
+                <StringItem index="86" value="MAD    -    Morocco"/>
+                <StringItem index="87" value="MDL    -    Moldova"/>
+                <StringItem index="88" value="MGA    -    Madagascar"/>
+                <StringItem index="89" value="MKD    -    North Macedonia"/>
+                <StringItem index="90" value="MMK    -    Myanmar"/>
+                <StringItem index="91" value="MNT    -    Mongolia"/>
+                <StringItem index="92" value="MOP    -    Macau"/>
+                <StringItem index="93" value="MRU    -    Mauritania"/>
+                <StringItem index="94" value="MUR    -    Mauritius"/>
+                <StringItem index="95" value="MVR    -    Maldives"/>
+                <StringItem index="96" value="MWK    -    Malawi"/>
+                <StringItem index="97" value="MXN    -    Mexico"/>
+                <StringItem index="98" value="MYR    -    Malaysia"/>
+                <StringItem index="99" value="MZN    -    Mozambique"/>
+                <StringItem index="100" value="NAD    -    Namibia"/>
+                <StringItem index="101" value="NGN    -    Nigeria"/>
+                <StringItem index="102" value="NIO    -    Nicaragua"/>
+                <StringItem index="103" value="NOK    -    Norway"/>
+                <StringItem index="104" value="NPR    -    Nepal"/>
+                <StringItem index="105" value="NZD    -    New Zealand"/>
+                <StringItem index="106" value="OMR    -    Oman"/>
+                <StringItem index="107" value="PAB    -    Panama"/>
+                <StringItem index="108" value="PEN    -    Peru"/>
+                <StringItem index="109" value="PGK    -    Papua New Guinea"/>
+                <StringItem index="110" value="PHP    -    Philippines"/>
+                <StringItem index="111" value="PKR    -    Pakistan"/>
+                <StringItem index="112" value="PLN    -    Poland"/>
+                <StringItem index="113" value="PYG    -    Paraguay"/>
+                <StringItem index="114" value="QAR    -    Qatar"/>
+                <StringItem index="115" value="RON    -    Romania"/>
+                <StringItem index="116" value="RSD    -    Serbia"/>
+                <StringItem index="117" value="RUB    -    Russia"/>
+                <StringItem index="118" value="RWF    -    Rwanda"/>
+                <StringItem index="119" value="SAR    -    Saudi Arabia"/>
+                <StringItem index="120" value="SBD    -    Solomon Islands"/>
+                <StringItem index="121" value="SCR    -    Seychelles"/>
+                <StringItem index="122" value="SDG    -    Sudan"/>
+                <StringItem index="123" value="SEK    -    Sweden"/>
+                <StringItem index="124" value="SGD    -    Singapore"/>
+                <StringItem index="125" value="SHP    -    Saint Helena"/>
+                <StringItem index="126" value="SLE    -    Sierra Leone"/>
+                <StringItem index="127" value="SOS    -    Somalia"/>
+                <StringItem index="128" value="SRD    -    Suriname"/>
+                <StringItem index="129" value="SSP    -    South Sudan"/>
+                <StringItem index="130" value="STN    -    S&#xe3;o Tom&#xe9; and Pr&#xed;ncipe"/>
+                <StringItem index="131" value="SYP    -    Syria"/>
+                <StringItem index="132" value="SZL    -    Eswatini"/>
+                <StringItem index="133" value="THB    -    Thailand"/>
+                <StringItem index="134" value="TJS    -    Tajikistan"/>
+                <StringItem index="135" value="TMT    -    Turkmenistan"/>
+                <StringItem index="136" value="TND    -    Tunisia"/>
+                <StringItem index="137" value="TOP    -    Tonga"/>
+                <StringItem index="138" value="TRY    -    Turkey"/>
+                <StringItem index="139" value="TTD    -    Trinidad and Tobago"/>
+                <StringItem index="140" value="TVD    -    Tuvalu"/>
+                <StringItem index="141" value="TWD    -    Taiwan"/>
+                <StringItem index="142" value="TZS    -    Tanzania"/>
+                <StringItem index="143" value="UAH    -    Ukraine"/>
+                <StringItem index="144" value="UGX    -    Uganda"/>
+                <StringItem index="145" value="USD    -    United States"/>
+                <StringItem index="146" value="UYU    -    Uruguay"/>
+                <StringItem index="147" value="UZS    -    Uzbekistan"/>
+                <StringItem index="148" value="VES    -    Venezuela"/>
+                <StringItem index="149" value="VND    -    Vietnam"/>
+                <StringItem index="150" value="VUV    -    Vanuatu"/>
+                <StringItem index="151" value="WST    -    Samoa"/>
+                <StringItem index="152" value="XAF    -    CEMAC"/>
+                <StringItem index="153" value="XCD    -    Organisation of Eastern Caribbean States"/>
+                <StringItem index="154" value="XDR    -    International Monetary Fund"/>
+                <StringItem index="155" value="XOF    -    CFA"/>
+                <StringItem index="156" value="XPF    -    Collectivit&#xe9;s d&apos;Outre-Mer"/>
+                <StringItem index="157" value="YER    -    Yemen"/>
+                <StringItem index="158" value="ZAR    -    South Africa"/>
+                <StringItem index="159" value="ZMW    -    Zambia"/>
+                <StringItem index="160" value="ZWL    -    Zimbabwe"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxDariUangActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="120" width="710" height="60"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder thickness="20">
+              <Color PropertyName="color" blue="ff" green="99" red="99" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="490" width="1170" height="150"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="30" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Jumlah Terkonversi"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="40" y="50" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextJumlahTerkonversi">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="25" style="1"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="420" y="40" width="710" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
